@@ -79,10 +79,11 @@ export default function Orders(){
                         <i className='icon icon--delete'/>
                     </button>
                 </div>
-                <button className='btn btn--secondary' style={{width:'40%', marginTop:10, marginRight:30}} onClick={removeAll}>removeAll</button>
+                <button className='btn btn--secondary' style={{width:'40%', marginTop:10, marginRight:30}} onClick={removeAll}>Payment</button>
                 <button className='btn btn--secondary' style={{width:'40%', marginTop:10}} >
-                <Link to= '/checkout'>Checkout</Link>
+                <Link to='/'>Cacel</Link>
                 </button>
+                {/* <button><Link to= '/checkout' className="btn btn--secondary" style={{width:'100%', marginTop:10}}>checkout</Link></button> */}
 
             </div>
         </aside>)

@@ -179,9 +179,12 @@ const AppStateProvider = ({children}) => {
     const removeAll = useCallback(()=>{
         setOrders([])
     },[])
+    const checkOut = useCallback(()=>{
+
+  },[])    
 
     return (
-    <AppStateContext.Provider value={{prototypes, orders, addToOrder,remove, removeAll}}>
+    <AppStateContext.Provider value={{prototypes, orders, addToOrder,remove, removeAll,checkOut}}>
         {children}
     </AppStateContext.Provider>
     )
